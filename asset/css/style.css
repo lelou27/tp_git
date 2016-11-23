@@ -2,6 +2,7 @@ body{
   background-color: blue;
   margin-top: 5em;
   display: flex;
+  border: 3px solid black;
 }
 
 section p{
