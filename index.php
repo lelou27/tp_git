@@ -1,3 +1,13 @@
+<?php
+
+$error = array();
+if (!empty($_POST['submit'])) {
+  echo 'Hello world !';
+  $pseudo = trim(strip_tags($_POST['name']));
+
+}
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -20,6 +30,12 @@
 
       <label for="surname">Prénom :</label>
       <input type="text" name="surname" value=""> <br>
+
+      <label for="color">Votre couleur préférée :</label>
+      <input type="color" name="color" value=""> <br>
+
+      <label for="email">Email :</label>
+      <input type="email" name="email" value=""> <br>
 
       <label for="message">Message :</label>
       <textarea name="message" rows="8" cols="80"></textarea> <br>
