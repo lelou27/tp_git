@@ -1,3 +1,13 @@
+<?php
+
+$error = array();
+if (!empty($_POST['submit'])) {
+  echo 'Hello world !';
+  $pseudo = trim(strip_tags($_POST['name']));
+
+}
+
+?>
 <!DOCTYPE html>
 <html>
   <head>
